@@ -7,14 +7,13 @@ function CronEvaluator({ expression }) {
     const humanReadable = cronstrue.toString(expression);
     return (
       <div className="cron-evaluator">
-        <h2>Human Readable Cron Expression:</h2>
+        <h2>Here's what it means :</h2>
         <p>{humanReadable}</p>
       </div>
     );
   } catch (error) {
-    // Handle invalid cron expressions (optional)
     return (
-      <div className="cron-evaluator">
+      <div className="cron-evaluator invalid-expression ">
         <p style={{ color: 'red' }}>Invalid cron expression.</p>
       </div>
     );

@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; 
+  color: #333;         
+}
+
+.App {
+  max-width: 800px;     
+  margin: 20px auto;     
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px;    
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;       
+}
+
+.input-group label {
+  display: block;    
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+}
+
+.copied-message {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #d4edda;
+  color: #155724;         
+  border-radius: 4px;
+}
+
+
+.cron-evaluator .invalid-expression { 
+  color: red;
+  font-weight: bold;
+}

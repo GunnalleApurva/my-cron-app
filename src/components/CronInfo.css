@@ -1,17 +1,18 @@
 .cron-info {
-    margin-top: 20px;
-  }
-  
-  .cron-info table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .cron-info th,
-  .cron-info td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-  }
-  
+  margin-top: 20px;
+}
+
+.cron-info table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cron-info th,
+.cron-info td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
   
