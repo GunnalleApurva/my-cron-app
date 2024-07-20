@@ -1,0 +1,17 @@
+.cron-info {
+    margin-top: 20px;
+  }
+  
+  .cron-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cron-info th,
+  .cron-info td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
